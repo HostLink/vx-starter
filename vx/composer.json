@@ -1,0 +1,18 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../puxt-vx"
+        }
+    ],
+    "require": {
+        "mathsgod/puxt": "^1.8",
+        "mathsgod/puxt-vx": "dev-main",
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        }
+    }
+}

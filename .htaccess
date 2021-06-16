@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} vx/
+RewriteRule ^vx/(.*) /vx [R=301,L]
+
+RewriteCond %{REQUEST_URI} !www/
+RewriteRule ^(.*)$ /www/$1 [L]
