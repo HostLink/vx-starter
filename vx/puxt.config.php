@@ -1,6 +1,10 @@
 <?php
 
 return [
+    "context" => [
+        "name" => "_vx"
+    ],
+
     "modules" => [
         "hostlink/puxt-db",
         "mathsgod/puxt-vx",
