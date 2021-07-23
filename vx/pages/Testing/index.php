@@ -1,16 +1,23 @@
+{{table|raw}}
 <?php
 
 return new class
 {
     public function get(VX $vx)
     {
+        $t = $vx->ui->createTable("data");
+        $t->addView();
+        $t->addEdit();
+        $t->add("Name", "name");
+        $this->table = $t;
+    }
 
-        $user=$vx->getModule("User");
-        outp($user->getFiles());
+    function data(VX $vx)
+    {
+        $resp = $vx->ui->createTableResponse();
+        $resp->source = Testing::Query();
 
-        
-
-        $test = $vx->getModule("Testing");
-        outp($test->getFiles());
+        $resp->add("name");
+        return $resp;
     }
 };
