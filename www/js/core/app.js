@@ -426,7 +426,7 @@ window.colors = {
       $('#dropdown-flag .flag-icon').removeClass().addClass(selectedFlag);
     }
   } else {
-    i18next.use(window.i18nextXHRBackend).init(
+/*     i18next.use(window.i18nextXHRBackend).init(
       {
         debug: false,
         fallbackLng: 'en',
@@ -439,7 +439,7 @@ window.colors = {
         // resources have been loaded
         jqueryI18next.init(i18next, $);
       }
-    );
+    ); */
 
     // change language according to data-language of dropdown item
     $('.dropdown-language .dropdown-item').on('click', function () {
@@ -955,7 +955,7 @@ window.colors = {
     }
 
     // Navbar Dark / Light Layout Toggle Switch
-    $('.nav-link-style').on('click', function () {
+    /* $('.nav-link-style').on('click', function () {
       var $this = $(this),
         currentLayout = getCurrentLayout(),
         mainMenu = $('.main-menu'),
@@ -987,7 +987,7 @@ window.colors = {
         'box-shadow': 'inherit'
       });
       $('.horizontal-menu .horizontal-menu-wrapper.header-navbar').css('background', 'inherit');
-    });
+    }); */
   });
 
 })(window, document, jQuery);
