@@ -1468,11 +1468,25 @@
         },
         {
             "name": "mathsgod/puxt",
+<<<<<<< HEAD
             "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "../../puxt",
                 "reference": "231a40c994a123415c31755119fcd0488010993a"
+=======
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathsgod/puxt.git",
+                "reference": "30c4ebed5c34d5188719fa102ed411c22a153565"
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathsgod/puxt/zipball/30c4ebed5c34d5188719fa102ed411c22a153565",
+                "reference": "30c4ebed5c34d5188719fa102ed411c22a153565",
+                "shasum": ""
             },
             "require": {
                 "mathsgod/html": "^1.0",
@@ -1493,6 +1507,7 @@
                     "PUXT\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1503,17 +1518,31 @@
                 }
             ],
             "description": "PHP framework",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/mathsgod/puxt/issues",
+                "source": "https://github.com/mathsgod/puxt/tree/1.10.0"
+            },
+            "time": "2021-07-26T05:23:37+00:00"
         },
         {
             "name": "mathsgod/puxt-vx",
-            "version": "dev-main",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathsgod/puxt-vx.git",
+                "reference": "338b8642ffe23c3ba64d35207eb3883900bb51a0"
+            },
             "dist": {
+<<<<<<< HEAD
                 "type": "path",
                 "url": "../../puxt-vx",
                 "reference": "267ce4eb4dfa74fd6a4595a1adb8feae1bda0ff1"
+=======
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathsgod/puxt-vx/zipball/338b8642ffe23c3ba64d35207eb3883900bb51a0",
+                "reference": "338b8642ffe23c3ba64d35207eb3883900bb51a0",
+                "shasum": ""
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
             },
             "require": {
                 "endroid/qr-code": "^4.1",
@@ -1543,6 +1572,7 @@
                     "function/default.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Raymond Chong",
@@ -1550,9 +1580,11 @@
                 }
             ],
             "description": "vx framework",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/mathsgod/puxt-vx/issues",
+                "source": "https://github.com/mathsgod/puxt-vx/tree/1.0.1"
+            },
+            "time": "2021-07-30T04:03:48+00:00"
         },
         {
             "name": "mathsgod/r-db",
@@ -1986,6 +2018,7 @@
         },
         {
             "name": "ramsey/collection",
+<<<<<<< HEAD
             "version": "1.2.1",
             "source": {
                 "type": "git",
@@ -1996,6 +2029,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/collection/zipball/eaca1dc1054ddd10cbd83c1461907bee6fb528fa",
                 "reference": "eaca1dc1054ddd10cbd83c1461907bee6fb528fa",
+=======
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/collection.git",
+                "reference": "ab2237657ad99667a5143e32ba2683c8029563d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/ab2237657ad99667a5143e32ba2683c8029563d4",
+                "reference": "ab2237657ad99667a5143e32ba2683c8029563d4",
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
                 "shasum": ""
             },
             "require": {
@@ -2049,7 +2094,11 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/ramsey/collection/tree/1.2.1"
+=======
+                "source": "https://github.com/ramsey/collection/tree/1.1.4"
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
             },
             "funding": [
                 {
@@ -2061,7 +2110,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-08-06T03:41:06+00:00"
+=======
+            "time": "2021-07-30T00:58:27+00:00"
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
         },
         {
             "name": "ramsey/uuid",
@@ -2666,6 +2719,7 @@
                 }
             ],
             "time": "2021-07-28T13:41:28+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "symfony/polyfill-php81",
@@ -2745,6 +2799,8 @@
                 }
             ],
             "time": "2021-05-21T13:25:03+00:00"
+=======
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
         },
         {
             "name": "symfony/process",
@@ -3610,10 +3666,14 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
+<<<<<<< HEAD
     "stability-flags": {
         "mathsgod/puxt": 20,
         "mathsgod/puxt-vx": 20
     },
+=======
+    "stability-flags": [],
+>>>>>>> 72b2f7859da91a72c74edcbb7a4f34e26ccd132c
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

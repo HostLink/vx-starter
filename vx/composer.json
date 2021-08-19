@@ -1,20 +1,7 @@
 {
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../../puxt-vx"
-        },
-        {
-            "type": "path",
-            "url": "../../puxt"
-        }
-    ],
     "require": {
-        "phpmailer/phpmailer": "^6.4",
-        "mathsgod/puxt": "dev-main",
-        "laminas/laminas-db": "^2.12",
-        "mathsgod/r-db": "^4.0",
-        "mathsgod/puxt-vx": "dev-main"
+        "mathsgod/puxt-vx": "^1.0",
+        "mathsgod/puxt": "^1.10"
     },
     "autoload": {
         "psr-4": {
