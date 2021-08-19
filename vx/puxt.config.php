@@ -6,7 +6,6 @@ return [
     ],
 
     "modules" => [
-        "hostlink/puxt-db",
         "mathsgod/puxt-vx",
     ],
 
@@ -15,6 +14,7 @@ return [
         "username" => "root",
         "password" => "111111",
         "database" => "raymond",
+        "charset" => "utf8mb4"
     ],
 
     "VX" => [

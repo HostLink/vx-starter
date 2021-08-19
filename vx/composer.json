@@ -10,9 +10,11 @@
         }
     ],
     "require": {
-        "mathsgod/puxt-vx": "dev-main",
         "phpmailer/phpmailer": "^6.4",
-        "mathsgod/puxt": "dev-main"
+        "mathsgod/puxt": "dev-main",
+        "laminas/laminas-db": "^2.12",
+        "mathsgod/r-db": "^4.0",
+        "mathsgod/puxt-vx": "dev-main"
     },
     "autoload": {
         "psr-4": {
